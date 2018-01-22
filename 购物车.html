@@ -1,0 +1,175 @@
+<!DOCTYPE>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link style="text/css" rel="stylesheet" href="style/reset.css" />
+<link style="text/css" rel="stylesheet" href="style/main.css" />
+</head>
+
+<body>
+ <div class="headerBar">
+   <div class="topBar">
+     <div class="comWidth">
+	   <div class="leftArea">
+	   	     <a href="#" class="collection">收藏慕课</a>
+	   </div>
+	   <div class="rightArea">
+	   	    欢迎来到慕课网！<a href="#">[登入]</a> <a href="#">[免费注册]</a>
+	   </div>
+	 </div>	  
+   </div>
+   <div class="logoBar">
+     <div class="comWidth">
+	    <div class="logo fl">
+		  <a href="#"><img src="images/icon/慕课网.png" alt="慕课网"/></a>
+		</div>
+		<div class="stepBox fr">
+			<div class="step">
+				<ul class="step_text">
+					<li class="s01 active">我的购物车</li>
+					<li class="s02 active">填写核对订单</li>
+					<li class="s03">订单提交成功</li>
+				</ul>
+			</div>
+		</div>
+	 </div>
+   </div>
+   <div class="navBox hide ">
+      <div class="comWidth">
+		 <div class="shopClass fl ">
+		   <h3>全部商品分类<i></i></h3>
+        </div> 
+		 <ul class="nav fl">
+			<li><a href="#" class="active">数码城</a></li>
+			<li><a href="#">天黑黑</a></li>
+			<li><a href="#">团购</a></li>
+			<li><a href="#">发现</a></li>
+			<li><a href="#">二手特卖</a></li>
+			<li><a href="#">名品汇</a></li>
+		 </ul>    
+   </div>
+ </div>
+ <div class="shopingCart comWidth">
+ 	<div class="shopping_item">
+ 		<h3 class="shoping_tit">收货地址:</h3>
+ 		<div class="shopping_cont padding_shop">
+ 		<ul class="shopping_list">
+ 			<li ><span class="shopping_list_text"><em>*</em>选择地区：</span>
+ 		    <div class="select">
+ 			<h3>海淀区五环内</h3><span></span>
+ 			<ul class="show_select">
+ 				<li>五道口</li>
+ 				<li>北大</li>
+ 				<li>上地</li>
+ 			</ul>
+ 		</div></li>
+ 		<li><span class="shopping_list_text"><em>*</em>详细地址:</span><input class="input input_b" type="text" value="最多输入20个汉字"></li>
+ 		<li><span class="shopping_list_text"><em>*</em>收货人：</span><input class="input" type="text" value="最多输入10个汉字"></li>
+ 		<li><span class="shopping_list_text"><em>*</em>手 机：</span><input class="input" type="text" value="如：1234321223">&nbsp;或固定电话：<input type="text" class="input input_s" ><span class="jian">-</span><input type="text" class="input input_m" ><span class="jian">-</span><input type="text" class="input input_m"></li>
+ 		<li><input type="button" class="affirm" value="确认收货地址"></li>
+ 		</ul>
+ 		</div>
+ 	</div>
+ 	<div class="hr_25"></div>
+ 	<div class="shopping_item">
+ 		<h3 class="shoping_tit">支付方式:</h3>
+ 		<div class="shopping_cont padding_shop">
+ 		<ul class="shopping_list">
+ 			<li><input type="radio" class="radio" id="r1"><label for="r1">微信支付</label>&nbsp;&nbsp;微信扫一扫支付</li>
+ 			<li><input type="radio" class="radio" id="r2"><label for="r2">货到付款</label>&nbsp;&nbsp;收货在付款</li>
+ 		</ul>
+ 		</div>
+ 	</div>
+ 		<div class="hr_25"></div>
+ 	 	<div class="shopping_item">
+ 		<h3 class="shoping_tit">发票信息:</h3>
+ 		<div class="shopping_cont padding_shop">
+ 		<ul class="shopping_list">
+ 			<li><div class="fa"><input type="checkbox" checked="checked"><span>&nbsp;需要发票</span></div></li>
+ 			<li ><span class="shopping_list_text"><em>*</em>发票类型：</span>
+ 		    <div class="select">
+ 			<h3>海淀区五环内</h3><span></span>
+ 			<ul class="show_select">
+ 				<li>五道口</li>
+ 				<li>北大</li>
+ 				<li>上地</li>
+ 			</ul>
+ 		</div></li>
+ 		<li ><span class="shopping_list_text"><em>*</em>发票抬头：</span>
+ 		    <div class="select">
+ 			<h3>海淀区五环内</h3><span></span>
+ 			<ul class="show_select">
+ 				<li>五道口</li>
+ 				<li>北大</li>
+ 				<li>上地</li>
+ 			</ul>
+ 		</div></li><input type="text">
+ 		<li><div class="fa_button"><input type="button" class="affirm" value="保存">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="affirm" value="取消"</div></li>
+ 		</ul>
+ 		</div>
+ 	<div class="hr_25"></div>
+ 	<div class="shopping_item">
+ 		<h3 class="shoping_tit">送货清单:<a href="#" class="backCar">返回购物车修改</a></h3>
+ 		<div class="shopping_cont pb_10">
+ 			<div class="cart_inner">
+ 				<div class="cart_head clearfix">
+ 					<div class="cart_item t_name">商品名称</div>
+ 					<div class="cart_item t_price">单价</div>
+ 					<div class="cart_item t_return">返现</div>
+ 					<div class="cart_item t_count">数量</div>
+ 					<div class="cart_item t_sum">小计</div>
+ 				</div>
+ 				<div class="cart_cont clearfix">
+ 					<div class="cart_item t_name">
+ 						<div class="cart_shopInfo clearfix">
+ 							<img src="images/description/small.gif">
+ 							<div class="cart_shopInf_cont">
+ 								<p class="cart_link"><a href="#">宇宙手机</a></p>
+ 								<p class="cart_info">让宇宙沟通无界限的手机</p>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<div class="cart_item t_price">$12233</div>
+ 					<div class="cart_item t_return">30%</div>
+ 					<div class="cart_item t_count">1</div>
+ 					<div class="cart_item t_sum t_red">10000</div>
+ 				</div>
+ 				<div class="cart_message">
+ 			若有问题请留言
+ 		</div>
+ 		<div class="cart_prompt"><i></i>抱歉，一下商品无法购买</div>
+ 		<div class="cart_cont clearfix">
+ 					<div class="cart_item t_name">
+ 						<div class="cart_shopInfo clearfix">
+ 							<img src="images/description/small.gif">
+ 							<div class="cart_shopInf_cont">
+ 								<p class="cart_link"><a href="#">宇宙手机</a></p>
+ 								<p class="cart_info">让宇宙沟通无界限的手机</p>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 		<div class="hr_25"></div>
+ 	<div class="shopping_item">
+ 		<h3 class="shoping_tit">订单结算:</h3>
+ 		<div class="shopping_cont padding_shop clearfix">
+ 		<div class="cart_count fr">
+ 			<div class="cart_rmb">
+ 				总计：<span>￥14500009.00</span>
+ 			</div>
+ 			<div class="submit_box">
+ 			<input type="button"  class="submit" value="提交订单">
+ 			</div>
+ 		</div>
+ 		</div>
+ 	</div>
+ <div class="h_25"></div>
+ <div class="footer">
+ 	<p><a href="#">慕课简介</a><i>|</i><a href="#">慕课公告</a><i>|</i><a href="#">招贤纳士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：400-675-1234</p>
+ 	<p>Copyright***dandan****</p>
+ 	<p class="web"><a href="#"><img src="images/user.gif" alt="logo"></a><a href="#"><img src="images/user.gif" alt="logo"></a><a href="#"><img src="images/user.gif" alt="logo"></a><a href="#"><img src="images/user.gif" alt="logo"></a></p>
+ </div>
+</body>
